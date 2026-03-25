@@ -6,7 +6,7 @@
 /*   By: gogalsty <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/14 15:16:12 by gogalsty          #+#    #+#             */
-/*   Updated: 2026/02/26 16:13:11 by gogalsty         ###   ########.fr       */
+/*   Updated: 2026/03/25 17:07:35 by gogalsty         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <unistd.h>
 # include <stdarg.h>
 # include <stdlib.h>
+# include <stdio.h>
 
 size_t		ft_putchar(char c);
 size_t		ft_putstr(char *str);
