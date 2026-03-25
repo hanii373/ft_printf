@@ -38,7 +38,10 @@ size_t	ft_putptr(void *ptr)
 {
 	unsigned long	address;
 	int				len;
-
+	
+	if (!ptr){
+		return (write(1, "(nil)", 5));
+	}
 	address = (unsigned long)ptr;
 	len = 0;
 	len += write(1, "0x", 2);
